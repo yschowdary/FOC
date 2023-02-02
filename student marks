@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main()
+{
+	int regno,m1,m2,m3,m4,total;
+	float avg;
+	char name[100];
+	printf("student detail");
+	scanf("%s",&name);
+	printf("student regno");
+	scanf("%d",&regno);
+	printf("enter number");
+	scanf("%d%d%d%d",&m1,&m2,&m3,&m4);
+	total=m1+m2+m3+m4;
+	avg=total/4;
+	printf("the result of the student %s %d %d %f",name,regno,total,avg);
+return 0;
+}
